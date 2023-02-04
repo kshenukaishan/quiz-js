@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Project</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="quiz">
+        <div class="heading">
+          <p class="title">Notion</p>
+          <p class="subtitle">Dailt quiz to test your javascript knowledge</p>
+        </div>
+        <div class="result hide">
+          <p>Score</p>
+          <p class="reload">
+            <button onclick="document.location.reload(true)">Try Again</button>
+          </p>
+        </div>
+        <form action="" class="quiz-form">
+          <div class="question">
+            <p>1. What is the Extension of Javascript</p>
+            <div class="option">
+              <input type="radio" name="q1" value="A" checked />
+              <label for="">java</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q1" value="B" />
+              <label for="">ts</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q1" value="C" />
+              <label for="">js</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q1" value="D" />
+              <label for="">cpp</label>
+            </div>
+          </div>
+          <div class="question">
+            <p>2. Which statement is correct about final keyword</p>
+            <div class="option">
+              <input type="radio" name="q2" value="A" checked />
+              <label for="">It use to inheritance</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q2" value="B" />
+              <label for="">It prevents method overriding</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q2" value="C" />
+              <label for="">It make varables static</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q2" value="D" />
+              <label for="">Non of the above</label>
+            </div>
+          </div>
+          <div class="question">
+            <p>3. Which one is valid design pattern in java</p>
+            <div class="option">
+              <input type="radio" name="q3" value="A" checked />
+              <label for="">MVC</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q3" value="B" />
+              <label for="">MVVM</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q3" value="C" />
+              <label for="">MVT</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q3" value="D" />
+              <label for="">Singleton</label>
+            </div>
+          </div>
+          <div class="question">
+            <p>4. Which http method should we use for update?</p>
+            <div class="option">
+              <input type="radio" name="q4" value="A" checked />
+              <label for="">GET</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q4" value="B" />
+              <label for="">PUT</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q4" value="C" />
+              <label for="">DELETE</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q4" value="D" />
+              <label for="">PATCH</label>
+            </div>
+          </div>
+          <div class="question">
+            <p>5. Which one is the intermediate operation of folloiwng?</p>
+            <div class="option">
+              <input type="radio" name="q5" value="A" checked />
+              <label for="">filter()</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q5" value="B" />
+              <label for="">sort()</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q5" value="C" />
+              <label for="">stream()</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q5" value="D" />
+              <label for="">println()</label>
+            </div>
+          </div>
+          <div class="submit">
+            <input type="submit" value="Submit" />
+          </div>
+        </form>
+      </section>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
